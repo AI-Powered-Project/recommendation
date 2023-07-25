@@ -1,0 +1,202 @@
+[
+  {
+    "user_id": 1,
+    "gender": "Female",
+    "birth": 2004,
+    "location": "SanFrancisco",
+    "general_preference": [
+      "Extrovert",
+      "Spontaneous",
+      "Generous",
+      "Indoorsy",
+      "Early Bird",
+      "Traveler",
+      "Intellectual"
+    ],
+    "category_preference": [
+      "Organized",
+      "Respectful",
+      "Friendly"
+    ]
+  },
+  {
+    "user_id": 2,
+    "gender": "Female",
+    "birth": 2010,
+    "location": "SanFrancisco",
+    "general_preference": [
+      "Introvert",
+      "Organized",
+      "Budget-conscious",
+      "Outdoorsy",
+      "Night Owl",
+      "Traveler",
+      "Fun-loving"
+    ],
+    "category_preference": [
+      "Friendly",
+      "Compatibility",
+      "Responsible"
+    ]
+  },
+  {
+    "user_id": 3,
+    "gender": "Others",
+    "birth": 2009,
+    "location": "SanFrancisco",
+    "general_preference": [
+      "Extrovert",
+      "Spontaneous",
+      "Budget-conscious",
+      "Indoorsy",
+      "Night Owl",
+      "Homebody",
+      "Intellectual"
+    ],
+    "category_preference": [
+      "Respectful",
+      "Safety-conscious",
+      "Trustworthy"
+    ]
+  },
+  {
+    "user_id": 4,
+    "gender": "Others",
+    "birth": 2010,
+    "location": "SanFrancisco",
+    "general_preference": [
+      "Extrovert",
+      "Spontaneous",
+      "Generous",
+      "Outdoorsy",
+      "Early Bird",
+      "Homebody",
+      "Intellectual"
+    ],
+    "category_preference": [
+      "Organized",
+      "Friendly",
+      "Respectful"
+    ]
+  },
+  {
+    "user_id": 5,
+    "gender": "Female",
+    "birth": 1984,
+    "location": "SanFrancisco",
+    "general_preference": [
+      "Introvert",
+      "Organized",
+      "Generous",
+      "Indoorsy",
+      "Early Bird",
+      "Homebody",
+      "Fun-loving"
+    ],
+    "category_preference": [
+      "Respectful",
+      "Cleanliness",
+      "Communication"
+    ]
+  },
+  {
+    "user_id": 6,
+    "gender": "Male",
+    "birth": 1983,
+    "location": "SanFrancisco",
+    "general_preference": [
+      "Introvert",
+      "Spontaneous",
+      "Generous",
+      "Outdoorsy",
+      "Early Bird",
+      "Homebody",
+      "Fun-loving"
+    ],
+    "category_preference": [
+      "Friendly",
+      "Cooperative",
+      "Cleanliness"
+    ]
+  },
+  {
+    "user_id": 7,
+    "gender": "Others",
+    "birth": 1984,
+    "location": "SanFrancisco",
+    "general_preference": [
+      "Extrovert",
+      "Organized",
+      "Generous",
+      "Indoorsy",
+      "Night Owl",
+      "Homebody",
+      "Fun-loving"
+    ],
+    "category_preference": [
+      "Friendly",
+      "Compatibility",
+      "Cleanliness"
+    ]
+  },
+  {
+    "user_id": 8,
+    "gender": "Male",
+    "birth": 1981,
+    "location": "SanFrancisco",
+    "general_preference": [
+      "Introvert",
+      "Organized",
+      "Budget-conscious",
+      "Outdoorsy",
+      "Night Owl",
+      "Homebody",
+      "Intellectual"
+    ],
+    "category_preference": [
+      "Compatibility",
+      "Responsible",
+      "Communication"
+    ]
+  },
+  {
+    "user_id": 9,
+    "gender": "Male",
+    "birth": 1987,
+    "location": "SanFrancisco",
+    "general_preference": [
+      "Introvert",
+      "Spontaneous",
+      "Generous",
+      "Indoorsy",
+      "Early Bird",
+      "Traveler",
+      "Intellectual"
+    ],
+    "category_preference": [
+      "Responsible",
+      "Cooperative",
+      "Trustworthy"
+    ]
+  },
+  {
+    "user_id": 10,
+    "gender": "Female",
+    "birth": 1984,
+    "location": "SanFrancisco",
+    "general_preference": [
+      "Introvert",
+      "Organized",
+      "Generous",
+      "Indoorsy",
+      "Night Owl",
+      "Traveler",
+      "Fun-loving"
+    ],
+    "category_preference": [
+      "Communication",
+      "Organized",
+      "Responsible"
+    ]
+  }
+]
