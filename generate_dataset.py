@@ -1,5 +1,6 @@
 import random
 import json
+import csv
 
 # General preferences options
 general_preference_options = [
@@ -60,3 +61,16 @@ with open('user_data.json', 'w') as json_file:
     json.dump(users, json_file, indent=2)
 
 print("JSON 파일이 생성되었습니다.")
+
+
+
+# # CSV 파일에 저장할 헤더 정의
+# field_names = ["user_id", "gender", "birth", "location", "general_preference", "category_preference"]
+#
+# # 데이터를 CSV 파일로 저장
+# with open('user_data.csv', 'w', newline='') as csv_file:
+#     writer = csv.DictWriter(csv_file, fieldnames=field_names)
+#     writer.writeheader()
+#     writer.writerows(users)
+#
+# print("CSV 파일이 생성되었습니다.")
