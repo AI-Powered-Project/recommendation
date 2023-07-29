@@ -16,15 +16,15 @@ general_preference_options = [
 # Category preferences options
 room_category_preference_options = [
     "Cleanliness", "Compatibility", "Respectful", "Trustworthy", "Communication", "Responsible",
-    "Cooperative", "Friendly", "Safety-conscious", "Organized"
+    "Cooperative", "Friendly", "Safety-conscious", "Patient"
 ]
 travel_category_preference_options = [
-    "Responsible", "Respectful", "Punctuality", "Compatibility", "Communication", "Open-minded",
-    "Budget-conscious", "Shared-interests", "Safety-conscious", "Language-skills"
+    "Adventurous", "Responsible", "Respectful", "Punctuality", "Compatibility", "Communication", "Open-minded",
+    "Budget-conscious", "Safety-conscious", "Language-skills"
 ]
 dining_category_preference_options = [
-    "Food preferences", "Compatibility", "Punctuality", "Flexibility", "Communication", "Allergies",
-    "Open-minded", "Table-manner", "Respectful", "Willingness to try new cuisines"
+    "Cleanliness", "Food preferences", "Compatibility", "Punctuality", "Flexibility", "Communication", "Allergies",
+    "Open-minded", "Table-manner", "Meal-sharing",
 ]
 shopping_category_preference_options = [
     "Budget-conscious", "Savings", "Splitting", "Sharing", "Convenience", "Quality",

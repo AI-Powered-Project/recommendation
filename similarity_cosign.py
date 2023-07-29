@@ -28,19 +28,22 @@ preferences_matrix = vectorizer.fit_transform(preferences_list)
 cosine_similarities = cosine_similarity(preferences_matrix)
 
 # 유사도 결과 출력
+user_similarities = {user['user_id']: {} for user in users}  # Initialize user_similarities for all user IDs
 for i, user1 in enumerate(users):
     for j, user2 in enumerate(users):
         similarity_score = cosine_similarities[i, j]
-        print(f"Cosine Similarity : {user1['user_id']} and {user2['user_id']}: {similarity_score:.3f}")
-        print(similarity_score)
+        user_similarities[user1['user_id']][user2['user_id']] = round(similarity_score *10, 2)
+        user_similarities[user2['user_id']][user1['user_id']] = round(similarity_score *10, 2)
+        # print(f"Cosine Similarity : {user1['user_id']} and {user2['user_id']}: {similarity_score:.3f}")
+        # print(similarity_score)
+    # print()
 
 
+# Update the existing JSON data with similarity information
+for user in users:
+    user_id = user['user_id']
+    user['similarity'] = user_similarities[user_id]
 
-# # Update the existing JSON data with similarity information
-# for user in users:
-#     user_id = user['user_id']
-#     user['similarity'] = user_similarities[user_id]
-#
-# # Save the updated JSON data back to the file
-# with open(output_file_path, 'w') as file:
-#     json.dump(users, file, indent=2)
+# Save the updated JSON data back to the file
+with open(output_file_path, 'w') as file:
+    json.dump(users, file, indent=2)
