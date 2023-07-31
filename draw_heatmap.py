@@ -23,7 +23,7 @@ for i, user_data in enumerate(data):
         similarity_matrix[user_id_i - 1, user_id_j - 1] = similarity_value
 
 # 히트맵 그리기
-plt.figure(figsize=(8, 6))
+plt.figure(figsize=(10, 8))
 sns.heatmap(similarity_matrix, annot=True, cmap='coolwarm', xticklabels=range(1, num_users + 1), yticklabels=range(1, num_users + 1))
 plt.title('User Similarity Heatmap')
 plt.xlabel('Users')
