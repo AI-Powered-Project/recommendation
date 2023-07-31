@@ -31,11 +31,7 @@ similarity_results = []
 for user_id, similarities in user_similarities.items():
     user_result = {"similarity": []}
     for other_user_id, similarity in similarities.items():
-        # print(user_id, other_user_id)
-        if other_user_id != user_id:
-            user_result["similarity"].append(similarity)
-        else : # user_idx
-            user_result["similarity"].append('.')
+        user_result["similarity"].append(similarity)
     similarity_results.append(user_result)
 print(similarity_results)
 
