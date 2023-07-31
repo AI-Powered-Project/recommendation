@@ -33,7 +33,7 @@ shopping_category_preference_options = [
 
 # Generate 10 user sets
 users = []
-for i in range(1, 11):
+for i in range(1, 16):
     user_set = {
         "user_id": i,
         "gender": random.choice(["Male", "Female","Others"]),
