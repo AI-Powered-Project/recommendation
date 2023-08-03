@@ -1,6 +1,7 @@
 from gensim.models import Word2Vec
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
+import json
 
 file_path = './user_data.json'
 output_file_path = './user_data_similarity_3.json'
@@ -25,11 +26,28 @@ for preferences in all_preferences:
         user_vector = np.mean(vectors, axis=0)
         user_vectors.append(user_vector)
 
-# 사용자 간 유사도 계산
-similarity_matrix = cosine_similarity(user_vectors)
+#----------------------------------------------------------------------------------------------------------
 
-# 사용자 간 유사도 출력
-for i in range(len(users)):
-    for j in range(i+1, len(users)):
-        similarity = similarity_matrix[i][j]
-        print(f"사용자 {users[i]['user_id']}과(와) 사용자 {users[j]['user_id']}의 preference 유사도: {similarity:.4f}")
+# 사용자 간 유사도 계산
+cosine_similarities = cosine_similarity(user_vectors)
+
+# 유사도 결과 출력
+user_similarities = {user['user_id']: {} for user in users}  # Initialize user_similarities for all user IDs
+for i, user1 in enumerate(users):
+    for j, user2 in enumerate(users):
+        similarity_score = cosine_similarities[i, j]
+        user_similarities[user1['user_id']][user2['user_id']] = round(similarity_score *10, 3)
+        user_similarities[user2['user_id']][user1['user_id']] = round(similarity_score *10, 3)
+        # print(f"Cosine Similarity : {user1['user_id']} and {user2['user_id']}: {similarity_score:.3f}")
+        # print(similarity_score)
+    # print()
+
+
+# Update the existing JSON data with similarity information
+for user in users:
+    user_id = user['user_id']
+    user['similarity'] = user_similarities[user_id]
+
+# Save the updated JSON data back to the file
+with open(output_file_path, 'w') as file:
+    json.dump(users, file, indent=2)
