@@ -16,26 +16,6 @@ def calculate_similarity(user1, user2):
     total_similarity = general_similarity + category_similarity
     return total_similarity
 
-
-# Calculation of similarity between all users
-user_similarities = {user['user_id']: {} for user in users}  # Initialize user_similarities for all user IDs
-for i, user1 in enumerate(users):
-    for j in range(i, len(users)):
-        user2 = users[j]
-        similarity = calculate_similarity(user1, user2)
-        user_similarities[user1['user_id']][user2['user_id']] = similarity
-        user_similarities[user2['user_id']][user1['user_id']] = similarity
-
-# Store similarity results in a list
-similarity_results = []
-for user_id, similarities in user_similarities.items():
-    user_result = {"similarity": []}
-    for other_user_id, similarity in similarities.items():
-        user_result["similarity"].append(similarity)
-    similarity_results.append(user_result)
-print(similarity_results)
-
-
 # Calculation of similarity between all users
 user_similarities = {user['user_id']: {} for user in users}  # Initialize user_similarities for all user IDs
 for i, user1 in enumerate(users):
