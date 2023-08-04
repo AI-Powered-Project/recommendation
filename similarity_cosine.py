@@ -20,9 +20,13 @@ preferences_list = [preprocess_preferences(user['general_preference']) + ' ' +
                     preprocess_preferences(user['category_preference'])
                     for user in users]
 
+# print(preferences_list)
+
 # 벡터화 수행
 vectorizer = CountVectorizer()
 preferences_matrix = vectorizer.fit_transform(preferences_list)
+
+#----------------------------------------------------------------------------------------------------------
 
 # 코사인 유사도 계산
 cosine_similarities = cosine_similarity(preferences_matrix)
@@ -32,8 +36,8 @@ user_similarities = {user['user_id']: {} for user in users}  # Initialize user_s
 for i, user1 in enumerate(users):
     for j, user2 in enumerate(users):
         similarity_score = cosine_similarities[i, j]
-        user_similarities[user1['user_id']][user2['user_id']] = round(similarity_score *10, 2)
-        user_similarities[user2['user_id']][user1['user_id']] = round(similarity_score *10, 2)
+        user_similarities[user1['user_id']][user2['user_id']] = round(similarity_score *10, 3)
+        user_similarities[user2['user_id']][user1['user_id']] = round(similarity_score *10, 3)
         # print(f"Cosine Similarity : {user1['user_id']} and {user2['user_id']}: {similarity_score:.3f}")
         # print(similarity_score)
     # print()

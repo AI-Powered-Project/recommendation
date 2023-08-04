@@ -4,7 +4,7 @@ import csv
 
 # General preferences options
 general_preference_options = [
-    "Introvert vs. Extrovert",
+    "Extrovert vs.Introvert",
     "Organized vs. Spontaneous",
     "Budget-conscious vs. Generous",
     "Outdoorsy vs. Indoorsy",
@@ -33,7 +33,7 @@ shopping_category_preference_options = [
 
 # Generate 10 user sets
 users = []
-for i in range(1, 16):
+for i in range(1, 11):
     user_set = {
         "user_id": i,
         "gender": random.choice(["Male", "Female","Others"]),
