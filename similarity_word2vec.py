@@ -3,8 +3,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 import json
 
-file_path = './user_data.json'
-output_file_path = './user_data_similarity_3.json'
+file_path = '.data/user_data.json'
+output_file_path = '.data/user_data_similarity_3.json'
 
 with open(file_path, 'r') as file:
     users = json.load(file)

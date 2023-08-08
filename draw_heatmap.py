@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import json
 
-# file_path = './user_data_similarity_1.json'
-# file_path = './user_data_similarity_2.json'
-file_path = './user_data_similarity_3.json'
+# file_path = './data/user_data_similarity_1.json'
+# file_path = './data//user_data_similarity_2.json'
+file_path = './data//user_data_similarity_3.json'
 
 
 with open(file_path, 'r') as file:

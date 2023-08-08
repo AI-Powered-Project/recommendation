@@ -2,8 +2,8 @@ import random
 import csv
 import json
 
-file_path = './user_data.json'
-output_file_path = './user_data_similarity_1.json'
+file_path = '.data/user_data.json'
+output_file_path = '.data/user_data_similarity_1.json'
 
 with open(file_path, 'r') as file:
     users = json.load(file)

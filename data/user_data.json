@@ -1,68 +1,28 @@
 [
   {
     "user_id": 1,
-    "gender": "Male",
-    "birth": 1990,
-    "location": "SanFrancisco",
-    "general_preference": [
-      "Extrovert",
-      "Organized",
-      "Budget-conscious",
-      "Outdoorsy",
-      "Early Bird",
-      "Traveler",
-      "Intellectual"
-    ],
-    "category_preference": [
-      "Cooperative",
-      "Respectful",
-      "Safety-conscious"
-    ]
-  },
-  {
-    "user_id": 2,
-    "gender": "Female",
-    "birth": 1997,
+    "gender": "Others",
+    "birth": 1998,
     "location": "SanFrancisco",
     "general_preference": [
       "Introvert",
       "Organized",
-      "Budget-conscious",
-      "Outdoorsy",
-      "Early Bird",
-      "Traveler",
-      "Intellectual"
+      "Generous",
+      "Indoorsy",
+      "Night Owl",
+      "Homebody",
+      "Fun-loving"
     ],
     "category_preference": [
-      "Cooperative",
-      "Respectful",
-      "Safety-conscious"
+      "Safety-conscious",
+      "Friendly",
+      "Trustworthy"
     ]
   },
   {
-    "user_id": 3,
+    "user_id": 2,
     "gender": "Others",
-    "birth": 2001,
-    "location": "SanFrancisco",
-    "general_preference": [
-      "Extrovert",
-      "Spontaneous",
-      "Budget-conscious",
-      "Outdoorsy",
-      "Early Bird",
-      "Traveler",
-      "Intellectual"
-    ],
-    "category_preference": [
-      "Cooperative",
-      "Respectful",
-      "Safety-conscious"
-    ]
-  },
-  {
-    "user_id": 4,
-    "gender": "Female",
-    "birth": 2004,
+    "birth": 1981,
     "location": "SanFrancisco",
     "general_preference": [
       "Extrovert",
@@ -71,18 +31,98 @@
       "Outdoorsy",
       "Early Bird",
       "Traveler",
+      "Fun-loving"
+    ],
+    "category_preference": [
+      "Respectful",
+      "Friendly",
+      "Responsible"
+    ]
+  },
+  {
+    "user_id": 3,
+    "gender": "Others",
+    "birth": 1998,
+    "location": "SanFrancisco",
+    "general_preference": [
+      "Extrovert",
+      "Spontaneous",
+      "Budget-conscious",
+      "Indoorsy",
+      "Early Bird",
+      "Homebody",
       "Intellectual"
     ],
     "category_preference": [
-      "Cooperative",
+      "Cleanliness",
+      "Safety-conscious",
+      "Trustworthy"
+    ]
+  },
+  {
+    "user_id": 4,
+    "gender": "Others",
+    "birth": 1987,
+    "location": "SanFrancisco",
+    "general_preference": [
+      "Extrovert",
+      "Spontaneous",
+      "Generous",
+      "Outdoorsy",
+      "Night Owl",
+      "Traveler",
+      "Intellectual"
+    ],
+    "category_preference": [
+      "Trustworthy",
       "Respectful",
       "Safety-conscious"
     ]
   },
   {
     "user_id": 5,
-    "gender": "Others",
-    "birth": 1980,
+    "gender": "Female",
+    "birth": 2010,
+    "location": "SanFrancisco",
+    "general_preference": [
+      "Extrovert",
+      "Organized",
+      "Generous",
+      "Indoorsy",
+      "Early Bird",
+      "Traveler",
+      "Intellectual"
+    ],
+    "category_preference": [
+      "Communication",
+      "Cooperative",
+      "Compatibility"
+    ]
+  },
+  {
+    "user_id": 6,
+    "gender": "Male",
+    "birth": 2005,
+    "location": "SanFrancisco",
+    "general_preference": [
+      "Introvert",
+      "Organized",
+      "Budget-conscious",
+      "Outdoorsy",
+      "Early Bird",
+      "Homebody",
+      "Fun-loving"
+    ],
+    "category_preference": [
+      "Safety-conscious",
+      "Cleanliness",
+      "Trustworthy"
+    ]
+  },
+  {
+    "user_id": 7,
+    "gender": "Male",
+    "birth": 2009,
     "location": "SanFrancisco",
     "general_preference": [
       "Extrovert",
@@ -90,62 +130,42 @@
       "Budget-conscious",
       "Indoorsy",
       "Early Bird",
-      "Traveler",
-      "Intellectual"
-    ],
-    "category_preference": [
-      "Cooperative",
-      "Respectful",
-      "Safety-conscious"
-    ]
-  },
-  {
-    "user_id": 6,
-    "gender": "Male",
-    "birth": 2003,
-    "location": "SanFrancisco",
-    "general_preference": [
-      "Extrovert",
-      "Organized",
-      "Budget-conscious",
-      "Outdoorsy",
-      "Night Owl",
-      "Traveler",
-      "Intellectual"
-    ],
-    "category_preference": [
-      "Cooperative",
-      "Respectful",
-      "Safety-conscious"
-    ]
-  },
-  {
-    "user_id": 7,
-    "gender": "Female",
-    "birth": 1985,
-    "location": "SanFrancisco",
-    "general_preference": [
-      "Extrovert",
-      "Organized",
-      "Budget-conscious",
-      "Outdoorsy",
-      "Early Bird",
       "Homebody",
       "Intellectual"
     ],
     "category_preference": [
       "Cooperative",
-      "Respectful",
-      "Safety-conscious"
+      "Cleanliness",
+      "Communication"
     ]
   },
   {
     "user_id": 8,
     "gender": "Female",
-    "birth": 1991,
+    "birth": 2006,
     "location": "SanFrancisco",
     "general_preference": [
-      "Extrovert",
+      "Introvert",
+      "Organized",
+      "Generous",
+      "Outdoorsy",
+      "Early Bird",
+      "Traveler",
+      "Fun-loving"
+    ],
+    "category_preference": [
+      "Friendly",
+      "Trustworthy",
+      "Cooperative"
+    ]
+  },
+  {
+    "user_id": 9,
+    "gender": "Female",
+    "birth": 1999,
+    "location": "SanFrancisco",
+    "general_preference": [
+      "Introvert",
       "Organized",
       "Budget-conscious",
       "Outdoorsy",
@@ -155,48 +175,28 @@
     ],
     "category_preference": [
       "Cooperative",
-      "Respectful",
-      "Safety-conscious"
-    ]
-  },
-  {
-    "user_id": 9,
-    "gender": "Female",
-    "birth": 1993,
-    "location": "SanFrancisco",
-    "general_preference": [
-      "Extrovert",
-      "Organized",
-      "Budget-conscious",
-      "Outdoorsy",
-      "Early Bird",
-      "Traveler",
-      "Intellectual"
-    ],
-    "category_preference": [
-      "Cooperative",
-      "Respectful",
-      "Safety-conscious"
+      "Responsible",
+      "Friendly"
     ]
   },
   {
     "user_id": 10,
     "gender": "Male",
-    "birth": 2006,
+    "birth": 1987,
     "location": "SanFrancisco",
     "general_preference": [
       "Extrovert",
-      "Organized",
+      "Spontaneous",
       "Budget-conscious",
-      "Outdoorsy",
+      "Indoorsy",
       "Early Bird",
-      "Traveler",
-      "Intellectual"
+      "Homebody",
+      "Fun-loving"
     ],
     "category_preference": [
-      "Cooperative",
+      "Safety-conscious",
       "Respectful",
-      "Safety-conscious"
+      "Patient"
     ]
   }
 ]

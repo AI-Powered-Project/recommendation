@@ -1,0 +1,552 @@
+[
+  {
+    "user_id": 1,
+    "gender": "Female",
+    "birth": 1981,
+    "location": "City0",
+    "general_preferences": [
+      {
+        "Personality": {
+          "selected": "Extrovert",
+          "opposite": "Introvert"
+        }
+      },
+      {
+        "Style": {
+          "selected": "Organized",
+          "opposite": "Spontaneous"
+        }
+      },
+      {
+        "Financial": {
+          "selected": "Generous",
+          "opposite": "Budget-conscious"
+        }
+      },
+      {
+        "Behavior": {
+          "selected": "Outdoorsy",
+          "opposite": "Indoorsy"
+        }
+      },
+      {
+        "Chronotype": {
+          "selected": "Early Bird",
+          "opposite": "Night Owl"
+        }
+      },
+      {
+        "Adventurousness": {
+          "selected": "Homebody",
+          "opposite": "Traveler"
+        }
+      },
+      {
+        "Disposition": {
+          "selected": "Intellectual",
+          "opposite": "Fun-loving"
+        }
+      }
+    ],
+    "category_preference": [
+      "Trustworthy",
+      "Compatibility",
+      "Responsible"
+    ]
+  },
+  {
+    "user_id": 2,
+    "gender": "Female",
+    "birth": 1980,
+    "location": "City1",
+    "general_preferences": [
+      {
+        "Personality": {
+          "selected": "Extrovert",
+          "opposite": "Introvert"
+        }
+      },
+      {
+        "Style": {
+          "selected": "Spontaneous",
+          "opposite": "Organized"
+        }
+      },
+      {
+        "Financial": {
+          "selected": "Generous",
+          "opposite": "Budget-conscious"
+        }
+      },
+      {
+        "Behavior": {
+          "selected": "Indoorsy",
+          "opposite": "Outdoorsy"
+        }
+      },
+      {
+        "Chronotype": {
+          "selected": "Early Bird",
+          "opposite": "Night Owl"
+        }
+      },
+      {
+        "Adventurousness": {
+          "selected": "Traveler",
+          "opposite": "Homebody"
+        }
+      },
+      {
+        "Disposition": {
+          "selected": "Fun-loving",
+          "opposite": "Intellectual"
+        }
+      }
+    ],
+    "category_preference": [
+      "Patient",
+      "Cooperative",
+      "Responsible"
+    ]
+  },
+  {
+    "user_id": 3,
+    "gender": "Male",
+    "birth": 1973,
+    "location": "City2",
+    "general_preferences": [
+      {
+        "Personality": {
+          "selected": "Introvert",
+          "opposite": "Extrovert"
+        }
+      },
+      {
+        "Style": {
+          "selected": "Organized",
+          "opposite": "Spontaneous"
+        }
+      },
+      {
+        "Financial": {
+          "selected": "Generous",
+          "opposite": "Budget-conscious"
+        }
+      },
+      {
+        "Behavior": {
+          "selected": "Indoorsy",
+          "opposite": "Outdoorsy"
+        }
+      },
+      {
+        "Chronotype": {
+          "selected": "Early Bird",
+          "opposite": "Night Owl"
+        }
+      },
+      {
+        "Adventurousness": {
+          "selected": "Homebody",
+          "opposite": "Traveler"
+        }
+      },
+      {
+        "Disposition": {
+          "selected": "Intellectual",
+          "opposite": "Fun-loving"
+        }
+      }
+    ],
+    "category_preference": [
+      "Communication",
+      "Patient",
+      "Cooperative"
+    ]
+  },
+  {
+    "user_id": 4,
+    "gender": "Female",
+    "birth": 1979,
+    "location": "City3",
+    "general_preferences": [
+      {
+        "Personality": {
+          "selected": "Introvert",
+          "opposite": "Extrovert"
+        }
+      },
+      {
+        "Style": {
+          "selected": "Spontaneous",
+          "opposite": "Organized"
+        }
+      },
+      {
+        "Financial": {
+          "selected": "Generous",
+          "opposite": "Budget-conscious"
+        }
+      },
+      {
+        "Behavior": {
+          "selected": "Indoorsy",
+          "opposite": "Outdoorsy"
+        }
+      },
+      {
+        "Chronotype": {
+          "selected": "Night Owl",
+          "opposite": "Early Bird"
+        }
+      },
+      {
+        "Adventurousness": {
+          "selected": "Homebody",
+          "opposite": "Traveler"
+        }
+      },
+      {
+        "Disposition": {
+          "selected": "Intellectual",
+          "opposite": "Fun-loving"
+        }
+      }
+    ],
+    "category_preference": [
+      "Safety-conscious",
+      "Compatibility",
+      "Patient"
+    ]
+  },
+  {
+    "user_id": 5,
+    "gender": "Others",
+    "birth": 1975,
+    "location": "City4",
+    "general_preferences": [
+      {
+        "Personality": {
+          "selected": "Extrovert",
+          "opposite": "Introvert"
+        }
+      },
+      {
+        "Style": {
+          "selected": "Organized",
+          "opposite": "Spontaneous"
+        }
+      },
+      {
+        "Financial": {
+          "selected": "Budget-conscious",
+          "opposite": "Generous"
+        }
+      },
+      {
+        "Behavior": {
+          "selected": "Indoorsy",
+          "opposite": "Outdoorsy"
+        }
+      },
+      {
+        "Chronotype": {
+          "selected": "Early Bird",
+          "opposite": "Night Owl"
+        }
+      },
+      {
+        "Adventurousness": {
+          "selected": "Traveler",
+          "opposite": "Homebody"
+        }
+      },
+      {
+        "Disposition": {
+          "selected": "Fun-loving",
+          "opposite": "Intellectual"
+        }
+      }
+    ],
+    "category_preference": [
+      "Cooperative",
+      "Trustworthy",
+      "Cleanliness"
+    ]
+  },
+  {
+    "user_id": 6,
+    "gender": "Others",
+    "birth": 1994,
+    "location": "City5",
+    "general_preferences": [
+      {
+        "Personality": {
+          "selected": "Introvert",
+          "opposite": "Extrovert"
+        }
+      },
+      {
+        "Style": {
+          "selected": "Organized",
+          "opposite": "Spontaneous"
+        }
+      },
+      {
+        "Financial": {
+          "selected": "Budget-conscious",
+          "opposite": "Generous"
+        }
+      },
+      {
+        "Behavior": {
+          "selected": "Outdoorsy",
+          "opposite": "Indoorsy"
+        }
+      },
+      {
+        "Chronotype": {
+          "selected": "Early Bird",
+          "opposite": "Night Owl"
+        }
+      },
+      {
+        "Adventurousness": {
+          "selected": "Traveler",
+          "opposite": "Homebody"
+        }
+      },
+      {
+        "Disposition": {
+          "selected": "Fun-loving",
+          "opposite": "Intellectual"
+        }
+      }
+    ],
+    "category_preference": [
+      "Compatibility",
+      "Communication",
+      "Trustworthy"
+    ]
+  },
+  {
+    "user_id": 7,
+    "gender": "Female",
+    "birth": 1988,
+    "location": "City6",
+    "general_preferences": [
+      {
+        "Personality": {
+          "selected": "Extrovert",
+          "opposite": "Introvert"
+        }
+      },
+      {
+        "Style": {
+          "selected": "Spontaneous",
+          "opposite": "Organized"
+        }
+      },
+      {
+        "Financial": {
+          "selected": "Generous",
+          "opposite": "Budget-conscious"
+        }
+      },
+      {
+        "Behavior": {
+          "selected": "Outdoorsy",
+          "opposite": "Indoorsy"
+        }
+      },
+      {
+        "Chronotype": {
+          "selected": "Early Bird",
+          "opposite": "Night Owl"
+        }
+      },
+      {
+        "Adventurousness": {
+          "selected": "Traveler",
+          "opposite": "Homebody"
+        }
+      },
+      {
+        "Disposition": {
+          "selected": "Fun-loving",
+          "opposite": "Intellectual"
+        }
+      }
+    ],
+    "category_preference": [
+      "Friendly",
+      "Patient",
+      "Respectful"
+    ]
+  },
+  {
+    "user_id": 8,
+    "gender": "Others",
+    "birth": 1982,
+    "location": "City7",
+    "general_preferences": [
+      {
+        "Personality": {
+          "selected": "Extrovert",
+          "opposite": "Introvert"
+        }
+      },
+      {
+        "Style": {
+          "selected": "Spontaneous",
+          "opposite": "Organized"
+        }
+      },
+      {
+        "Financial": {
+          "selected": "Budget-conscious",
+          "opposite": "Generous"
+        }
+      },
+      {
+        "Behavior": {
+          "selected": "Indoorsy",
+          "opposite": "Outdoorsy"
+        }
+      },
+      {
+        "Chronotype": {
+          "selected": "Night Owl",
+          "opposite": "Early Bird"
+        }
+      },
+      {
+        "Adventurousness": {
+          "selected": "Homebody",
+          "opposite": "Traveler"
+        }
+      },
+      {
+        "Disposition": {
+          "selected": "Fun-loving",
+          "opposite": "Intellectual"
+        }
+      }
+    ],
+    "category_preference": [
+      "Cooperative",
+      "Safety-conscious",
+      "Compatibility"
+    ]
+  },
+  {
+    "user_id": 9,
+    "gender": "Male",
+    "birth": 2003,
+    "location": "City8",
+    "general_preferences": [
+      {
+        "Personality": {
+          "selected": "Introvert",
+          "opposite": "Extrovert"
+        }
+      },
+      {
+        "Style": {
+          "selected": "Organized",
+          "opposite": "Spontaneous"
+        }
+      },
+      {
+        "Financial": {
+          "selected": "Generous",
+          "opposite": "Budget-conscious"
+        }
+      },
+      {
+        "Behavior": {
+          "selected": "Indoorsy",
+          "opposite": "Outdoorsy"
+        }
+      },
+      {
+        "Chronotype": {
+          "selected": "Early Bird",
+          "opposite": "Night Owl"
+        }
+      },
+      {
+        "Adventurousness": {
+          "selected": "Homebody",
+          "opposite": "Traveler"
+        }
+      },
+      {
+        "Disposition": {
+          "selected": "Intellectual",
+          "opposite": "Fun-loving"
+        }
+      }
+    ],
+    "category_preference": [
+      "Cooperative",
+      "Friendly",
+      "Safety-conscious"
+    ]
+  },
+  {
+    "user_id": 10,
+    "gender": "Others",
+    "birth": 1982,
+    "location": "City9",
+    "general_preferences": [
+      {
+        "Personality": {
+          "selected": "Extrovert",
+          "opposite": "Introvert"
+        }
+      },
+      {
+        "Style": {
+          "selected": "Organized",
+          "opposite": "Spontaneous"
+        }
+      },
+      {
+        "Financial": {
+          "selected": "Generous",
+          "opposite": "Budget-conscious"
+        }
+      },
+      {
+        "Behavior": {
+          "selected": "Outdoorsy",
+          "opposite": "Indoorsy"
+        }
+      },
+      {
+        "Chronotype": {
+          "selected": "Night Owl",
+          "opposite": "Early Bird"
+        }
+      },
+      {
+        "Adventurousness": {
+          "selected": "Homebody",
+          "opposite": "Traveler"
+        }
+      },
+      {
+        "Disposition": {
+          "selected": "Fun-loving",
+          "opposite": "Intellectual"
+        }
+      }
+    ],
+    "category_preference": [
+      "Responsible",
+      "Respectful",
+      "Trustworthy"
+    ]
+  }
+]

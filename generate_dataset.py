@@ -4,7 +4,7 @@ import csv
 
 # General preferences options
 general_preference_options = [
-    "Extrovert vs.Introvert",
+    "Extrovert vs. Introvert", 
     "Organized vs. Spontaneous",
     "Budget-conscious vs. Generous",
     "Outdoorsy vs. Indoorsy",
@@ -57,7 +57,7 @@ for user in users:
 
 
 # 데이터를 JSON 형식으로 변환하여 저장
-with open('user_data.json', 'w') as json_file:
+with open('data/user_data.json', 'w') as json_file:
     json.dump(users, json_file, indent=2)
 
 print("JSON 파일이 생성되었습니다.")
