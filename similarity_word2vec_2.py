@@ -5,8 +5,8 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-file_path = '.data/user_data_modify.json'
-output_file_path = '.data/similarity_w2v.json'
+file_path = './data/user_data_modify.json'
+output_file_path = './data/similarity_w2v.json'
 
 with open(file_path, 'r') as file:
     user_data = json.load(file)

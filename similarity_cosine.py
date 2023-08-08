@@ -4,8 +4,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-file_path = '.data/user_data.json'
-output_file_path = '.data/user_data_similarity_2.json'
+file_path = './data/user_data.json'
+output_file_path = './data/user_data_similarity_2.json'
 
 with open(file_path, 'r') as file:
     users = json.load(file)
