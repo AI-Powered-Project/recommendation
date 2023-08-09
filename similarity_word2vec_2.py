@@ -11,14 +11,6 @@ output_file_path = './data/similarity_w2v.json'
 with open(file_path, 'r') as file:
     users = json.load(file)
 
-
-# 사용자의 preference를 추출하여 리스트로 저장
-all_preferences = []
-for user in users:
-    preferences = user["general_preferences"] + user["category_preference"]
-    all_preferences.append(preferences)
-
-print(all_preferences)
 # Load the trained Word2Vec model
 model = Word2Vec.load("word2vec_model.bin")
 
@@ -30,14 +22,14 @@ model = Word2Vec.load("word2vec_model.bin")
 #             sentences.append([key, value['selected'], value['opposite']])
 #     sentences.extend(user['category_preference'])
 
-# Train Word2Vec model
-model = Word2Vec(sentences=all_preferences, vector_size=100, window=5, min_count=1, sg=0)
+# # Train Word2Vec model
+# model = Word2Vec(sentences, vector_size=100, window=5, min_count=1, sg=0)
 
-# Save the trained model
-model.save("word2vec_model.bin")
+# # Save the trained model
+# # model.save("word2vec_model.bin")
 
-# Load the trained model
-model = Word2Vec.load("word2vec_model.bin")
+# # Load the trained model
+# model = Word2Vec.load("word2vec_model.bin")
 
 # Calculate average vector for user preferences with weighted selected and opposite preferences
 def calculate_weighted_average_vector(preferences, selected_weight, opposite_weight):
