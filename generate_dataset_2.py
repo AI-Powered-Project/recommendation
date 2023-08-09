@@ -53,7 +53,7 @@ def generate_user_json(user_id, gender, birth, location):
         "gender": gender,
         "birth": birth,
         "location": location,
-        "general_preferences": general_preferences,
+        "general_preference": general_preferences,
         "category_preference": category_preferences
     }
 
