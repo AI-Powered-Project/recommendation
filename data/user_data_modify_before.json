@@ -1,0 +1,106 @@
+[
+  {
+    "user_id": 1,
+    "general_preference": [
+      {
+        "Personality": {
+          "selected": "Introvert",
+          "opposite": "Extrovert"
+        }
+      },
+      {
+        "Style": {
+          "selected": "Organized",
+          "opposite": "Spontaneous"
+        }
+      },
+      {
+        "Financial": {
+          "selected": "Budget-conscious",
+          "opposite": "Generous"
+        }
+      },
+      {
+        "Behavior": {
+          "selected": "Outdoorsy",
+          "opposite": "Indoorsy"
+        }
+      },
+      {
+        "Chronotype": {
+          "selected": "Early Bird",
+          "opposite": "Night Owl"
+        }
+      },
+      {
+        "Adventurousness": {
+          "selected": "Traveler",
+          "opposite": "Homebody"
+        }
+      },
+      {
+        "Disposition": {
+          "selected": "Intellectual",
+          "opposite": "Fun-loving"
+        }
+      }
+    ],
+    "category_preference": [
+      "Patient",
+      "Trustworthy",
+      "Respectful"
+    ]
+  },
+  {
+    "user_id": 2,
+    "general_preference": [
+      {
+        "Personality": {
+          "selected": "Introvert",
+          "opposite": "Extrovert"
+        }
+      },
+      {
+        "Style": {
+          "selected": "Organized",
+          "opposite": "Spontaneous"
+        }
+      },
+      {
+        "Financial": {
+          "selected": "Budget-conscious",
+          "opposite": "Generous"
+        }
+      },
+      {
+        "Behavior": {
+          "selected": "Outdoorsy",
+          "opposite": "Indoorsy"
+        }
+      },
+      {
+        "Chronotype": {
+          "selected": "Early Bird",
+          "opposite": "Night Owl"
+        }
+      },
+      {
+        "Adventurousness": {
+          "selected": "Traveler",
+          "opposite": "Homebody"
+        }
+      },
+      {
+        "Disposition": {
+          "selected": "Intellectual",
+          "opposite": "Fun-loving"
+        }
+      }
+    ],
+    "category_preference": [
+      "Respectful",
+      "Trustworthy",
+      "Patient"
+    ]
+  }
+]
