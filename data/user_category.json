@@ -1,0 +1,31 @@
+[
+  {
+    "category_preference": [
+    {
+      "room_category_preference": [
+        "Cleanliness", "Compatibility", "Respectful", "Trustworthy", "Communication", "Responsible",
+      "Cooperative", "Friendly", "Safety-conscious", "Patient"
+      ]
+    },
+    {
+      "travel_category_preference": [
+        "Adventurous", "Responsible", "Respectful", "Punctuality", "Compatibility", "Communication", "Open-minded",
+      "Budget-conscious", "Safety-conscious", "Language-skills"
+      ]
+    },
+    {
+      "dining_category_preference": [
+        "Cleanliness", "Food preferences", "Compatibility", "Punctuality", "Flexibility", "Communication", "Allergies",
+        "Open-minded", "Table-manner", "Meal-sharing"
+      ]
+    },
+    {
+      "shopping_category_preference": [
+        "Budget-conscious", "Savings", "Splitting", "Sharing", "Convenience", "Quality",
+      "Variety", "Coupons", "Deals", "Communication"
+      ]
+    }
+  ]
+  }
+]
+    
