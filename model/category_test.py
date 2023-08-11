@@ -15,24 +15,6 @@ with open(file_path, 'r') as file:
 # Load the trained model
 model = Word2Vec.load("category_room_model.bin")
 
-# Calculate average vector for user preferences with weighted selected and opposite preferences
-def calculate_weighted_average_vector(preferences, selected_weight, opposite_weight):
-    total_vector = np.zeros(model.vector_size)
-    count = 0
-    for preference in preferences:
-        # print(preference)
-        for key, value in preference.items():
-            try:
-                total_vector += selected_weight * model.wv[value['selected']]
-                total_vector += opposite_weight * model.wv[value['opposite']]
-                count += 2
-            except KeyError:
-                pass
-    if count == 0:
-        return None
-    return total_vector / count
-
-
 # 벡터 간 유사성 계산 함수
 def calculate_vector_similarity(vec1, vec2):
     return cosine_similarity(vec1.reshape(1, -1), vec2.reshape(1, -1))[0][0]
