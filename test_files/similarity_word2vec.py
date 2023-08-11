@@ -15,8 +15,6 @@ for user in users:
     preferences = user["general_preference"] + user["category_preference"]
     all_preferences.append(preferences)
 
-# print(all_preferences)
-
 # Word2Vec 모델 학습
 model = Word2Vec(sentences=all_preferences, vector_size=100, window=5, min_count=1, sg=1)
 
@@ -27,6 +25,7 @@ for preferences in all_preferences:
     if vectors:
         user_vector = np.mean(vectors, axis=0)
         user_vectors.append(user_vector)
+        # print(user_vectors)
 
 #----------------------------------------------------------------------------------------------------------
 

@@ -4,8 +4,8 @@
     "general_preference": [
       {
         "Personality": {
-          "selected": "Introvert",
-          "opposite": "Extrovert"
+          "selected": "Extrovert",
+          "opposite": "Introvert"
         }
       },
       {
