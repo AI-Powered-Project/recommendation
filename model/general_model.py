@@ -7,7 +7,7 @@ file_path = '../data/user_general.json'
 with open(file_path, 'r') as file:
     user_data = json.load(file)
 
-
+# print(user_data)
 # Prepare text data for Word2Vec training
 sentences = []
 for preference in user_data[0]['general_preference']:
