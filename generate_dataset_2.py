@@ -7,7 +7,7 @@ general_preference_options = [
     "Style : Organized vs. Spontaneous",
     "Financial : Budget-conscious vs. Generous",
     "Behavior : Outdoorsy vs. Indoorsy",
-    "Chronotype : Early Bird vs. Night Owl",
+    "Chronotype : Early-Bird vs. Night-Owl",
     "Adventurousness : Traveler vs. Homebody",
     "Disposition : Intellectual vs. Fun-loving",
 ]
@@ -68,7 +68,7 @@ for i in range(num_users):
     user_jsons.append(user_json)
 
 # 데이터를 JSON 형식으로 변환하여 저장
-with open('data/user_data_modify.json', 'w') as json_file:
+with open('data/user_data_modify_before.json', 'w') as json_file:
     json.dump(user_jsons, json_file, indent=2)
 
 print("JSON 파일이 생성되었습니다.")
