@@ -405,7 +405,8 @@ users_data = [
 # Initialize the UserSimilarityCalculator with the Word2Vec model
 calculator = UserSimilarityCalculator("general_model.bin")
 
-# Calculate and print similarities between users
+# Calculate and print similarities between users : users
+
 # num_users = len(users_data)
 # for i in range(num_users):
 #     for j in range(i + 1, num_users):  # Compare only distinct pairs
