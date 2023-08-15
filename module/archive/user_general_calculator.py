@@ -3,7 +3,7 @@ from gensim.models import Word2Vec
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Class for calculating similarity
-class UserSimilarityCalculator:
+class UserGeneralSimilarityCalculator:
     def __init__(self, model_path):
         self.model = Word2Vec.load(model_path)
 

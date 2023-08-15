@@ -1,7 +1,7 @@
-from user_similarity_calculator import UserSimilarityCalculator
+from user_calculator import UserSimilarityCalculator
 
 # JSON input for multiple users
-users_data = [
+users_general_data = [
     [
         {
         "Personality": {
@@ -401,7 +401,79 @@ users_data = [
     # ... other users
 ]
 
-# Initialize the UserSimilarityCalculator with the Word2Vec model
-calculator = UserSimilarityCalculator("./models/general_model.bin")
-similarity = calculator.general_result(users_data)
-# print(similarity)
+users_data_category = [
+        {
+            "user_id": 1,
+            "category_preference": [
+                "Respectful",
+                "Cooperative"
+            ]
+        },
+        {
+            "user_id": 2,
+            "category_preference": [
+                "Respectful",
+                "Cooperative",
+                "Responsible"
+            ]
+        },
+        {
+            "user_id": 3,
+            "category_preference": [
+                "Friendly",
+                "Cooperative",
+                "Patient"
+            ]
+        },
+        {
+            "user_id": 4,
+            "category_preference": [
+                "Respectful",
+                "Cooperative",
+                "Friendly"
+            ]
+        },
+        {
+            "user_id": 5,
+            "category_preference": [
+                "Respectful",
+                "Cooperative",
+                "Respectful"
+            ]
+        },
+        {
+            "user_id": 6,
+            "category_preference": [
+                "Respectful",
+                "Cooperative",
+                "Responsible"
+            ]
+        },
+    # ... other users
+]
+
+# General Preference Process
+general_calculator = UserSimilarityCalculator("./models/general_model.bin")
+# Call general preference calculation function
+general_similarity = general_calculator.general_result(users_general_data)
+# print(general_similarity)
+
+
+# Category Preference Process
+party_type = "room" # "travel", "dining", "shopping"
+
+if party_type == "room" : # if user select find roommate
+    category_calculator = UserSimilarityCalculator("./models/category_room_model.bin")
+elif party_type == "travel": # if user select find travelmate
+    category_calculator = UserSimilarityCalculator("./models/category_travel_model.bin")
+elif party_type == "dining": # if user select find diningmate
+    category_calculator = UserSimilarityCalculator("./models/category_dining_model.bin")
+elif party_type == "shopping": # if user select find shoppingmate
+    category_calculator = UserSimilarityCalculator("./models/category_shopping_model.bin")
+
+# Call category preference calculation function
+category_similarity = category_calculator.get_result(users_data_category)
+# print(category_similarity)
+
+final_similarity = general_similarity + category_similarity
+print(final_similarity)

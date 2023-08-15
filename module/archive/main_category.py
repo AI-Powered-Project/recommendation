@@ -1,8 +1,7 @@
-import json
-from user_category_calculator import UserSimilarityCalculator
+from user_category_calculator import UserCategorySimilarityCalculator
 
 # JSON input for multiple users
-users_data = [
+users_data_category = [
         {
             "user_id": 1,
             "category_preference": [
@@ -52,18 +51,18 @@ users_data = [
         },
     # ... other users
 ]
-    
+
 party_type = "room" # "travel", "dining", "shopping"
 
 if party_type == "room" : # if user select find roommate
-    calculator = UserSimilarityCalculator("./models/category_room_model.bin")
+    category_calculator = UserCategorySimilarityCalculator("../models/category_room_model.bin")
 elif party_type == "travel": # if user select find travelmate
-    calculator = UserSimilarityCalculator("./models/category_travel_model.bin")
+    category_calculator = UserCategorySimilarityCalculator("../models/category_travel_model.bin")
 elif party_type == "dining": # if user select find diningmate
-    calculator = UserSimilarityCalculator("./models/category_dining_model.bin")
+    category_calculator = UserCategorySimilarityCalculator("../models/category_dining_model.bin")
 elif party_type == "shopping": # if user select find shoppingmate
-    calculator = UserSimilarityCalculator("./models/category_shopping_model.bin")
+    category_calculator = UserCategorySimilarityCalculator("../models/category_shopping_model.bin")
 
 # Call category calculation function
-category_similarity = calculator.get_result(users_data)
+category_similarity = category_calculator.get_result(users_data_category)
 # print(category_similarity)
