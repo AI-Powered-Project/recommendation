@@ -39,16 +39,16 @@ class UserSimilarityCalculator:
     # Function that calculates the similarity of vectors (Cosine Similarity)
     def general_result(self, users_data):
         num_users = len(users_data)
-        room_general = 0.0
+        general_sum = 0.0
         for i in range(1, num_users):
             user1_data = users_data[0] # Me
             user2_data = users_data[i]
                 
             similarity = self.calculate_similarity(user1_data, user2_data)
             if similarity is not None:
-                room_general += similarity
+                general_sum += similarity
                 # print(f"Similarity between User Me and User {i+1}: {round(similarity,4)}")
-        return round(room_general/num_users,4)
+        return round(general_sum/num_users,4)
 
 
 

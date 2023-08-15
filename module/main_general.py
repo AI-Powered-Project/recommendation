@@ -1,4 +1,3 @@
-import json
 from user_similarity_calculator import UserSimilarityCalculator
 
 # JSON input for multiple users

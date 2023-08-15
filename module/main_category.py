@@ -53,17 +53,16 @@ users_data = [
     # ... other users
 ]
     
+party_type = "room" # "travel", "dining", "shopping"
 
-model_path = "category_room_model.bin"
-calculator = UserSimilarityCalculator(model_path)
+if party_type == "room" :
+    calculator = UserSimilarityCalculator("./models/category_room_model.bin")
+elif party_type == "travel":
+    calculator = UserSimilarityCalculator("./models/category_travel_model.bin")
+elif party_type == "dining":
+    calculator = UserSimilarityCalculator("./models/category_dining_model.bin")
+elif party_type == "shopping":
+    calculator = UserSimilarityCalculator("./models/category_shopping_model.bin")
 
-num_users = len(users_data)
-for i in range(1, num_users):
-    user1 = users_data[0]  # me
-    user2 = users_data[i]
-
-    user1_category_pref = user1["category_preference"]
-    user2_category_pref = user2["category_preference"]
-
-    category_similarity = calculator.calculate_category_similarity(user1_category_pref, user2_category_pref)
-    print(f"Similarity between User Me and User {i+1}: {round(category_similarity, 4)}")
+category_similarity = calculator.get_result(users_data)
+# print(category_similarity)
