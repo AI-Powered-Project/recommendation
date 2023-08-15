@@ -24,7 +24,7 @@ model.save("general_model.bin")
 
 
 
-#------------------------ visualization ---------------------
+#------------------------------ visualization -------------------------------
 
 import matplotlib.pyplot as plt
 import numpy as np

@@ -327,5 +327,52 @@
         }
       }
     ]
+  },
+  {
+    "user_id": 8,
+    "general_preference": [
+      {
+        "Personality": {
+          "selected": "Introvert",
+          "opposite": "Extrovert"
+        }
+      },
+      {
+        "Style": {
+          "selected": "Organized",
+          "opposite": "Spontaneous"
+        }
+      },
+      {
+        "Financial": {
+          "selected": "Budget-conscious",
+          "opposite": "Generous"
+        }
+      },
+      {
+        "Behavior": {
+          "selected": "Outdoorsy",
+          "opposite": "Indoorsy"
+        }
+      },
+      {
+        "Chronotype": {
+          "selected": "Early-Bird",
+          "opposite": "Night-Owl"
+        }
+      },
+      {
+        "Adventurousness": {
+          "selected": "Traveler",
+          "opposite": "Homebody"
+        }
+      },
+      {
+        "Disposition": {
+          "selected": "Intellectual",
+          "opposite": "Fun-loving"
+        }
+      }
+    ]
   }
 ]
