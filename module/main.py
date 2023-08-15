@@ -403,14 +403,12 @@ users_general_data = [
 
 users_data_category = [
         {
-            "user_id": 1,
             "category_preference": [
                 "Respectful",
                 "Cooperative"
             ]
         },
         {
-            "user_id": 2,
             "category_preference": [
                 "Respectful",
                 "Cooperative",
@@ -418,7 +416,6 @@ users_data_category = [
             ]
         },
         {
-            "user_id": 3,
             "category_preference": [
                 "Friendly",
                 "Cooperative",
@@ -426,7 +423,6 @@ users_data_category = [
             ]
         },
         {
-            "user_id": 4,
             "category_preference": [
                 "Respectful",
                 "Cooperative",
@@ -434,7 +430,6 @@ users_data_category = [
             ]
         },
         {
-            "user_id": 5,
             "category_preference": [
                 "Respectful",
                 "Cooperative",
@@ -442,7 +437,6 @@ users_data_category = [
             ]
         },
         {
-            "user_id": 6,
             "category_preference": [
                 "Respectful",
                 "Cooperative",
@@ -476,4 +470,4 @@ category_similarity = category_calculator.get_result(users_data_category)
 # print(category_similarity)
 
 final_similarity = general_similarity + category_similarity
-# print(final_similarity)
+print(final_similarity)
