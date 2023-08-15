@@ -403,6 +403,6 @@ users_data = [
 ]
 
 # Initialize the UserSimilarityCalculator with the Word2Vec model
-calculator = UserSimilarityCalculator("general_model.bin")
+calculator = UserSimilarityCalculator("./models/general_model.bin")
 similarity = calculator.general_result(users_data)
 # print(similarity)
