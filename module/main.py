@@ -476,4 +476,4 @@ category_similarity = category_calculator.get_result(users_data_category)
 # print(category_similarity)
 
 final_similarity = general_similarity + category_similarity
-print(final_similarity)
+# print(final_similarity)
