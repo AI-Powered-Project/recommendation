@@ -55,14 +55,15 @@ users_data = [
     
 party_type = "room" # "travel", "dining", "shopping"
 
-if party_type == "room" :
+if party_type == "room" : # if user select find roommate
     calculator = UserSimilarityCalculator("./models/category_room_model.bin")
-elif party_type == "travel":
+elif party_type == "travel": # if user select find travelmate
     calculator = UserSimilarityCalculator("./models/category_travel_model.bin")
-elif party_type == "dining":
+elif party_type == "dining": # if user select find diningmate
     calculator = UserSimilarityCalculator("./models/category_dining_model.bin")
-elif party_type == "shopping":
+elif party_type == "shopping": # if user select find shoppingmate
     calculator = UserSimilarityCalculator("./models/category_shopping_model.bin")
 
+# Call category calculation function
 category_similarity = calculator.get_result(users_data)
 # print(category_similarity)
